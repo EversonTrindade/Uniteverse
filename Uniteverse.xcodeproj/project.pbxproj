@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00051718E8B6B95A668C321C /* Pods_UniteverseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A238B7531B973C6E19E2AF8A /* Pods_UniteverseTests.framework */; };
+		4009BB061EEF802F00D74E1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4009BB051EEF802F00D74E1A /* AppDelegate.swift */; };
+		4009BB081EEF802F00D74E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4009BB071EEF802F00D74E1A /* ViewController.swift */; };
+		4009BB0B1EEF802F00D74E1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4009BB091EEF802F00D74E1A /* Main.storyboard */; };
+		4009BB0D1EEF803000D74E1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4009BB0C1EEF803000D74E1A /* Assets.xcassets */; };
+		4009BB101EEF803000D74E1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4009BB0E1EEF803000D74E1A /* LaunchScreen.storyboard */; };
+		4009BB1B1EEF803000D74E1A /* UniteverseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4009BB1A1EEF803000D74E1A /* UniteverseTests.swift */; };
+		A12BE64B4DD129D2F8536300 /* Pods_Uniteverse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B342DF84065E02FD98F9150E /* Pods_Uniteverse.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4009BB171EEF803000D74E1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4009BAFA1EEF802F00D74E1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4009BB011EEF802F00D74E1A;
+			remoteInfo = Uniteverse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D9E7C0F9EB8AA4F5333BF0C /* Pods-Uniteverse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uniteverse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Uniteverse/Pods-Uniteverse.release.xcconfig"; sourceTree = "<group>"; };
+		4009BB021EEF802F00D74E1A /* Uniteverse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Uniteverse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4009BB051EEF802F00D74E1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4009BB071EEF802F00D74E1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4009BB0A1EEF802F00D74E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4009BB0C1EEF803000D74E1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4009BB0F1EEF803000D74E1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4009BB111EEF803000D74E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4009BB161EEF803000D74E1A /* UniteverseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UniteverseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4009BB1A1EEF803000D74E1A /* UniteverseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniteverseTests.swift; sourceTree = "<group>"; };
+		4009BB1C1EEF803000D74E1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		585DE1458CC727EDD63D678D /* Pods-UniteverseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniteverseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniteverseTests/Pods-UniteverseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A238B7531B973C6E19E2AF8A /* Pods_UniteverseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UniteverseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B342DF84065E02FD98F9150E /* Pods_Uniteverse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Uniteverse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE06AF5DD0793AE9D7DD3C9A /* Pods-UniteverseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniteverseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UniteverseTests/Pods-UniteverseTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBCA027389EABF19E62F753D /* Pods-Uniteverse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Uniteverse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Uniteverse/Pods-Uniteverse.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4009BAFF1EEF802F00D74E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12BE64B4DD129D2F8536300 /* Pods_Uniteverse.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4009BB131EEF803000D74E1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00051718E8B6B95A668C321C /* Pods_UniteverseTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4009BAF91EEF802F00D74E1A = {
+			isa = PBXGroup;
+			children = (
+				4009BB041EEF802F00D74E1A /* Uniteverse */,
+				4009BB191EEF803000D74E1A /* UniteverseTests */,
+				4009BB031EEF802F00D74E1A /* Products */,
+				E7B61E2F8F780F4B73AA83A8 /* Pods */,
+				ABCFBA52BC6EC5B58D907AD3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4009BB031EEF802F00D74E1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4009BB021EEF802F00D74E1A /* Uniteverse.app */,
+				4009BB161EEF803000D74E1A /* UniteverseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4009BB041EEF802F00D74E1A /* Uniteverse */ = {
+			isa = PBXGroup;
+			children = (
+				4009BB051EEF802F00D74E1A /* AppDelegate.swift */,
+				4009BB071EEF802F00D74E1A /* ViewController.swift */,
+				4009BB091EEF802F00D74E1A /* Main.storyboard */,
+				4009BB0C1EEF803000D74E1A /* Assets.xcassets */,
+				4009BB0E1EEF803000D74E1A /* LaunchScreen.storyboard */,
+				4009BB111EEF803000D74E1A /* Info.plist */,
+			);
+			path = Uniteverse;
+			sourceTree = "<group>";
+		};
+		4009BB191EEF803000D74E1A /* UniteverseTests */ = {
+			isa = PBXGroup;
+			children = (
+				4009BB1A1EEF803000D74E1A /* UniteverseTests.swift */,
+				4009BB1C1EEF803000D74E1A /* Info.plist */,
+			);
+			path = UniteverseTests;
+			sourceTree = "<group>";
+		};
+		ABCFBA52BC6EC5B58D907AD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B342DF84065E02FD98F9150E /* Pods_Uniteverse.framework */,
+				A238B7531B973C6E19E2AF8A /* Pods_UniteverseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7B61E2F8F780F4B73AA83A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EBCA027389EABF19E62F753D /* Pods-Uniteverse.debug.xcconfig */,
+				0D9E7C0F9EB8AA4F5333BF0C /* Pods-Uniteverse.release.xcconfig */,
+				585DE1458CC727EDD63D678D /* Pods-UniteverseTests.debug.xcconfig */,
+				BE06AF5DD0793AE9D7DD3C9A /* Pods-UniteverseTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4009BB011EEF802F00D74E1A /* Uniteverse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4009BB1F1EEF803100D74E1A /* Build configuration list for PBXNativeTarget "Uniteverse" */;
+			buildPhases = (
+				0CF37A16F6846DC4EC94098E /* [CP] Check Pods Manifest.lock */,
+				4009BAFE1EEF802F00D74E1A /* Sources */,
+				4009BAFF1EEF802F00D74E1A /* Frameworks */,
+				4009BB001EEF802F00D74E1A /* Resources */,
+				225A76687CAAFE4BB9D4CBEC /* [CP] Embed Pods Frameworks */,
+				CD12829AD8FE0B628A514918 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Uniteverse;
+			productName = Uniteverse;
+			productReference = 4009BB021EEF802F00D74E1A /* Uniteverse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4009BB151EEF803000D74E1A /* UniteverseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4009BB221EEF803100D74E1A /* Build configuration list for PBXNativeTarget "UniteverseTests" */;
+			buildPhases = (
+				3090BB856A9B4FBA0969BCE3 /* [CP] Check Pods Manifest.lock */,
+				4009BB121EEF803000D74E1A /* Sources */,
+				4009BB131EEF803000D74E1A /* Frameworks */,
+				4009BB141EEF803000D74E1A /* Resources */,
+				857A2F078191AD068FC99D7F /* [CP] Embed Pods Frameworks */,
+				A1DD728BB25AC82CD49B0F18 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4009BB181EEF803000D74E1A /* PBXTargetDependency */,
+			);
+			name = UniteverseTests;
+			productName = UniteverseTests;
+			productReference = 4009BB161EEF803000D74E1A /* UniteverseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4009BAFA1EEF802F00D74E1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sp.ios.code.uniteverse;
+				TargetAttributes = {
+					4009BB011EEF802F00D74E1A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7VCX4S5WBY;
+						ProvisioningStyle = Automatic;
+					};
+					4009BB151EEF803000D74E1A = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 7VCX4S5WBY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4009BB011EEF802F00D74E1A;
+					};
+				};
+			};
+			buildConfigurationList = 4009BAFD1EEF802F00D74E1A /* Build configuration list for PBXProject "Uniteverse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4009BAF91EEF802F00D74E1A;
+			productRefGroup = 4009BB031EEF802F00D74E1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4009BB011EEF802F00D74E1A /* Uniteverse */,
+				4009BB151EEF803000D74E1A /* UniteverseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4009BB001EEF802F00D74E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4009BB101EEF803000D74E1A /* LaunchScreen.storyboard in Resources */,
+				4009BB0D1EEF803000D74E1A /* Assets.xcassets in Resources */,
+				4009BB0B1EEF802F00D74E1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4009BB141EEF803000D74E1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CF37A16F6846DC4EC94098E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		225A76687CAAFE4BB9D4CBEC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uniteverse/Pods-Uniteverse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3090BB856A9B4FBA0969BCE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		857A2F078191AD068FC99D7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UniteverseTests/Pods-UniteverseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1DD728BB25AC82CD49B0F18 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UniteverseTests/Pods-UniteverseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD12829AD8FE0B628A514918 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Uniteverse/Pods-Uniteverse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4009BAFE1EEF802F00D74E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4009BB081EEF802F00D74E1A /* ViewController.swift in Sources */,
+				4009BB061EEF802F00D74E1A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4009BB121EEF803000D74E1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4009BB1B1EEF803000D74E1A /* UniteverseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4009BB181EEF803000D74E1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4009BB011EEF802F00D74E1A /* Uniteverse */;
+			targetProxy = 4009BB171EEF803000D74E1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4009BB091EEF802F00D74E1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4009BB0A1EEF802F00D74E1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4009BB0E1EEF803000D74E1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4009BB0F1EEF803000D74E1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4009BB1D1EEF803000D74E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4009BB1E1EEF803000D74E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4009BB201EEF803100D74E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCA027389EABF19E62F753D /* Pods-Uniteverse.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VCX4S5WBY;
+				INFOPLIST_FILE = Uniteverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sp.ios.code.Uniteverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4009BB211EEF803100D74E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D9E7C0F9EB8AA4F5333BF0C /* Pods-Uniteverse.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7VCX4S5WBY;
+				INFOPLIST_FILE = Uniteverse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sp.ios.code.Uniteverse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4009BB231EEF803100D74E1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 585DE1458CC727EDD63D678D /* Pods-UniteverseTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7VCX4S5WBY;
+				INFOPLIST_FILE = UniteverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.UniteverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uniteverse.app/Uniteverse";
+			};
+			name = Debug;
+		};
+		4009BB241EEF803100D74E1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE06AF5DD0793AE9D7DD3C9A /* Pods-UniteverseTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7VCX4S5WBY;
+				INFOPLIST_FILE = UniteverseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ios.UniteverseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Uniteverse.app/Uniteverse";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4009BAFD1EEF802F00D74E1A /* Build configuration list for PBXProject "Uniteverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4009BB1D1EEF803000D74E1A /* Debug */,
+				4009BB1E1EEF803000D74E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4009BB1F1EEF803100D74E1A /* Build configuration list for PBXNativeTarget "Uniteverse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4009BB201EEF803100D74E1A /* Debug */,
+				4009BB211EEF803100D74E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4009BB221EEF803100D74E1A /* Build configuration list for PBXNativeTarget "UniteverseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4009BB231EEF803100D74E1A /* Debug */,
+				4009BB241EEF803100D74E1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4009BAFA1EEF802F00D74E1A /* Project object */;
+}
