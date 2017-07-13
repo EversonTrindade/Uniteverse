@@ -1,0 +1,32 @@
+{
+    "interesses":[
+                  {
+                  "id":1,
+                  "name":"Soccer"
+                  },
+                  {
+                  "id":2,
+                  "name":"Puteiro"
+                  }
+                  ],
+    "atividades":[
+                  {
+                  "id":1,
+                  "name":"Jogar Bola"
+                  },
+                  {
+                  "id":2,
+                  "name":"Diversao"
+                  }
+                  ],
+        "pessoas":[
+                   {
+                   "id":1,
+                   "name":"ELA"
+                   },
+                   {
+                   "id":2,
+                   "name":"Safada"
+                   }
+                   ]
+}
