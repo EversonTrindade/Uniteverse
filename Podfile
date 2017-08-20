@@ -9,9 +9,8 @@ target 'Uniteverse' do
   pod 'FacebookCore'
   pod 'FacebookLogin'
   pod 'FacebookShare'
-  pod 'Alamofire'
-  pod 'SwiftyJSON'
-
+  pod 'AlamofireObjectMapper'
+  
   target 'UniteverseTests' do
     inherit! :search_paths
     # Pods for testing
